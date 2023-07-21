@@ -1,7 +1,16 @@
 import { Col, Row } from 'react-bootstrap'
 import Data from '../Data/data.json'
 import StoreItem from '../Components/StoreItem'
+import {useEffect} from 'react'
 export default function Store() {
+  // function Example() {
+  //   useEffect(() => {
+  //     document.title = 'My Page Title';
+  //   }, []);
+  // }
+  // Example()
+
+  document.title = 'Shopping-Cart/store'
   return (
   <>
   <h1>Store</h1>
