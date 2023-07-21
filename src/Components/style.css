@@ -1,0 +1,56 @@
+.image {
+  width: 125px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.name {
+  font-size: 1.1rem;
+}
+
+.offcanvas {
+  padding: 0px;
+}
+
+.oneTPrice {
+  font-size: 0.9rem;
+}
+
+.allTPrice {
+  font-size: 1.1rem;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+.body {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+  .image {
+    width: 100px;
+    height: 70px;
+  }
+  .oneTPrice {
+    font-size: 0.65rem;
+  }
+
+  .small {
+    font-size: 0.6rem;
+  }
+
+  .allTPrice {
+    font-size: 0.8rem;
+  }
+
+  .body {
+    padding: 5px;
+  }
+
+  .name {
+    font-size: 0.85rem;
+  }
+}
